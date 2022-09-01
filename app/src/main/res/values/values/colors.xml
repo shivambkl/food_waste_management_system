@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d2133</color>
+    <color name="colorPrimaryDark">#040d16</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_trans">#f91a1414</color>
+    <color name="black_trans1">#f5000000</color>
+    <color name="green">#53b75a</color>
+    <color name="green1">#0a8412</color>
+    <color name="trans_green">#801fb249</color>
+    <color name="skyblue">#628ac3</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ec5b68</color>
+    <color name="yellow">#ccc222</color>
+    <color name="skygreen">#1f7971</color>
+    <color name="voilet">#8156e2</color>
+    <color name="msgbg">#2890b7</color>
+    <color name="outstandingbg">#5a5c5e</color>
+    <color name="triangle">#454242</color>
+    <color name="red1">#f2061b</color>
+    <color name="orange">#f1720a</color>
+
+    <color name="pink">#9b0638</color>
+    <color name="black">#000</color>
+
+    <color name="trans_colorPrimary">#80072a4b</color>
+    <color name="trans_colorPrimaryDark">#800f385e</color>
+
+    <color name="trans_red">#80ec5b68</color>
+    <color name="lightgray">#eaeced</color>
+
+    <color name="offwhite">#f7f7ca</color>
+
+    <color name="baby_pink">#ffbfcc</color>
+
+
+    <color name="black_trans_selected">#80b1adad</color>
+    <color name="trans_orange">#90f1720a</color>
+    <color name="trans_white">#90ffffff</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="dpnamecolor">#fff</color>
+    <color name="weekcolor">#fff</color>
+    <color name="agendacolor">#8E9097</color>
+    <color name="timecolor">#000</color>
+    <color name="schedulecolor">#000</color>
+    <color name="statementcolor">#778AA6</color>
+
+</resources>

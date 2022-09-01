@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "661941540605",
+    "project_id": "food-waste-management-c910f",
+    "storage_bucket": "food-waste-management-c910f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661941540605:android:33fbf003bbf22d6b259094",
+        "android_client_info": {
+          "package_name": "com.foodwastemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661941540605-60t3shegbjbq41c5vprat5d6eksq54rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodwastemanagement",
+            "certificate_hash": "351b871914eb16dc6860a1eecf17c3b1af362c5a"
+          }
+        },
+        {
+          "client_id": "661941540605-vkgn892fdc4kp8b4nudo4gnc09pogf8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLSFYsaXbmeyrNrg9mLhdHPZ_oyEdwks8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661941540605-vkgn892fdc4kp8b4nudo4gnc09pogf8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

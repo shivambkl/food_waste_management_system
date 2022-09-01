@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_count"
+        android:title=""
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/branches"
+        android:title="Edit Profile"
+        />
+    <item
+        android:id="@+id/nav_password"
+        android:icon="@drawable/branches"
+        android:title="Change Password"
+        />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        />
+</menu>

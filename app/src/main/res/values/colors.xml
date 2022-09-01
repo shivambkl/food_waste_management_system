@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#018301</color>
+    <!--<color name="colorPrimary">#d10a4a</color>
+    <color name="colorPrimaryDark">#ab0239</color>-->
+    <color name="colorAccent">#FF4081</color>
+   <!-- <color name="light_black">#212121</color>-->
+    <color name="dark_pink">#9b0638</color>
+    <color name="blue">#15a4ec</color>
+    <color name="pink">#9b0638</color>
+    <color name="whitelight">#f9f5f5</color>
+    <color name="skyblue">#628ac3</color>
+    <color name="white">#ffffff</color>
+    <color name="gradient_center_color">#880d0d0f</color>
+    <color name="gradient_end_color">#885d5d5e</color>
+    <color name="gradient_start_color">#880f0f10</color>
+    <color name="black">#000</color>
+<!--login strt-->
+    <color name="blue1">#191970</color>
+    <color name="darkblue">#0983e1</color>
+
+    <color name="red">#f00b0b</color>
+    <color name="nav_item_state_list">#fff</color>
+
+    <color name="gen_white">#FFFFFF</color>
+    <color name="green_light">#43A047</color>
+    <color name="green">#33cc00</color>
+
+
+<color name="colorPrimaryItem">#0099ff</color>
+<color name="colorPrimaryDarkItem">#0366b3</color>
+<color name="colorAccentItem">#284eda</color>
+
+    <color name="black2">#382f2f</color>
+    <color name="gen_black">#000000</color>
+
+    <color name="signupColor">#018301</color>
+
+
+
+
+
+
+
+    <color name="dot_dark_screen1">#f44b72</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#14a895</color>
+    <color name="dot_dark_screen6">#2278d4</color>
+    <color name="dot_dark_screen7">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f76486</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#8cf9eb</color>
+    <color name="dot_light_screen6">#93c6fd</color>
+    <color name="dot_light_screen7">#e4b5fc</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+        <item>@color/dot_light_screen7</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+        <item>@color/dot_dark_screen7</item>
+    </array>
+
+    <color name="dpnamecolor">#fff</color>
+    <color name="weekcolor">#fff</color>
+    <color name="agendacolor">#8E9097</color>
+    <color name="timecolor">#000</color>
+    <color name="schedulecolor">#000</color>
+    <color name="statementcolor">#778AA6</color>
+
+<!--strt-->
+
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+</resources>

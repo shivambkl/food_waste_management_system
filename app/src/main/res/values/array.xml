@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>India</item>
+        <item>china</item>
+        <item>japan</item>
+        <item>nepal</item>
+        <item>indonesia</item>
+        <item>bhutan</item>
+        <item>srilanka</item>
+        <item>Russia</item>
+
+
+    </string-array>
+
+
+    <string-array name="currency">
+        <item>Select Country from here</item>
+    <item>INR(India)</item>
+    </string-array>
+
+
+    <string-array name="rates">
+        <item>0</item>
+        <item>5</item>
+        <item>12</item>
+        <item>18</item>
+        <item>28</item>
+
+
+
+    </string-array>
+    <string-array name="Type">
+        <item>Calls</item>
+        <item>Messages</item>
+        <item>Whatsapp</item>
+
+
+
+
+    </string-array>
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+
+
+
+
+    </string-array>
+
+
+    <string-array name="Weeks">
+        <item >ALL</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>3 Weeks</item>
+        <item>Today</item>
+    </string-array>
+
+    <string-array name="WeekDay">
+        <item>ADays</item>
+        <item>7Days</item>
+        <item>14Days</item>
+        <item>21Days</item>
+        <item>1Days</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>0 </item>
+        <item>2 </item>
+        <item>3  </item>
+        <item>4 </item>
+        <item>5 </item>
+        <item>6 </item>
+        <item>7 </item>
+        <item>14</item>
+        <item>21 </item>
+        <item>30 </item>
+        <item>45 </item>
+        <item>60 </item>
+        <item>90 </item>
+        <item>120 </item>
+        <item>180 </item>
+        <item>365 </item>
+
+
+
+
+
+    </string-array>
+</resources>

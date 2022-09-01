@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        android:background="@drawable/side_nav_bar">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/drawerDashboard">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleApp"
+                android:text="Food Waste"
+                android:textSize="19sp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleApp"
+                android:id="@+id/titleTagline"
+                android:text="Management System"
+                android:textSize="10sp"
+                android:paddingTop="2dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/titleApp"
+                android:id="@+id/titlerole"
+                android:text="Admin"
+                android:textSize="15sp"
+                android:paddingTop="2dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#FFEB3B"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:gravity="bottom"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/logo1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="10dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/d1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/drawrfrudinfo"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:text="Food Drive"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#99A1AC" />
+                <LinearLayout
+                    android:id="@+id/d2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/drwrfrausafe"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:text="Resturent List"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#99A1AC" />
+                <LinearLayout
+                    android:id="@+id/d3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/drawerrtinews" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:text="NGO List"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#99A1AC" />
+                <LinearLayout
+                    android:id="@+id/d4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/drawershare" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:text=" Report "
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
